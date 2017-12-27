@@ -13,8 +13,9 @@ console.log(location)
 
 ## API
 ### `location = nanolocation()`
-Get the current `window.pathname` + `window.hash` as a single path. E.g.
-a pathname of `/foo/bar/` and hash of `#baz` becomes `/foo/bar/baz`.
+Get the current `window.location.pathname` + `window.location.hash` as a
+single path. E.g. a pathname of `/foo/bar/` and hash of `#baz` becomes
+`/foo/bar/baz`.
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
