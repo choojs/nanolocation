@@ -1,7 +1,7 @@
 {
   "name": "nanolocation",
   "description": "Small window.location library",
-  "repository": "yoshuawuyts/nanolocation",
+  "repository": "choojs/nanolocation",
   "version": "1.0.0",
   "scripts": {
     "deps": "dependency-check . && dependency-check . --extra --no-dev",
