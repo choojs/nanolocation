@@ -3,12 +3,17 @@
   "description": "Small window.location library",
   "repository": "choojs/nanolocation",
   "version": "1.0.0",
+  "browser": {
+    "assert": "nanoassert"
+  },
   "scripts": {
-    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "deps": "dependency-check . && dependency-check . --extra --no-dev -i nanoassert",
     "start": "node .",
     "test": "standard && npm run deps"
   },
-  "dependencies": {},
+  "dependencies": {
+    "nanoassert": "^1.1.0"
+  },
   "devDependencies": {
     "dependency-check": "^3.1.0",
     "standard": "^10.0.2",
