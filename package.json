@@ -2,7 +2,7 @@
   "name": "nanolocation",
   "description": "Small window.location library",
   "repository": "choojs/nanolocation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "browser": {
     "assert": "nanoassert"
   },
